@@ -1,0 +1,622 @@
+[1G[0K⠙[1G[0K
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+[1G[0K⠙[1G[0K5:42:15 AM [express] serving on port 5000
+Browserslist: browsers data (caniuse-lite) is 9 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+5:43:13 AM [express] POST /api/auth/login 200 in 1ms :: {"id":1,"username":"KUMBHMELA","role":"volunteer","password":""}
+5:43:14 AM [express] GET /api/reports 200 in 78ms :: []
+5:43:34 AM [express] GET /api/reports 304 in 15ms :: []
+5:43:54 AM [express] GET /api/reports 304 in 24ms :: []
+5:44:00 AM [express] POST /api/auth/login 200 in 1ms :: {"id":1,"username":"KUMBHMELA","role":"volunteer","password":""}
+5:44:01 AM [express] GET /api/reports 304 in 2ms :: []
+5:44:06 AM [express] GET /api/reports 304 in 2ms :: []
+5:44:11 AM [express] GET /api/reports 304 in 2ms :: []
+5:44:16 AM [express] GET /api/reports 304 in 2ms :: []
+5:44:22 AM [express] GET /api/reports 304 in 3ms :: []
+5:44:27 AM [express] GET /api/reports 304 in 2ms :: []
+5:44:32 AM [express] GET /api/reports 304 in 2ms :: []
+5:44:37 AM [express] GET /api/reports 304 in 2ms :: []
+5:44:43 AM [express] GET /api/reports 304 in 2ms :: []
+5:44:48 AM [express] GET /api/reports 304 in 2ms :: []
+5:44:53 AM [express] GET /api/reports 304 in 2ms :: []
+5:44:58 AM [express] GET /api/reports 304 in 1ms :: []
+5:45:04 AM [express] GET /api/reports 304 in 1ms :: []
+5:45:09 AM [express] GET /api/reports 304 in 2ms :: []
+5:45:14 AM [express] GET /api/reports 304 in 1ms :: []
+5:45:19 AM [express] GET /api/reports 304 in 2ms :: []
+5:45:25 AM [express] GET /api/reports 304 in 1ms :: []
+5:45:30 AM [express] GET /api/reports 304 in 2ms :: []
+5:45:35 AM [express] GET /api/reports 304 in 2ms :: []
+5:45:38 AM [express] POST /api/reports 201 in 398ms :: {"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}
+5:45:38 AM [express] GET /api/reports/3 200 in 6ms :: {"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}
+5:45:40 AM [express] GET /api/reports 200 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:45:43 AM [express] GET /api/reports/3 304 in 2ms :: {"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}
+5:45:46 AM [express] GET /api/reports 304 in 7ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:45:49 AM [express] GET /api/reports/3 304 in 1ms :: {"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}
+5:45:51 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:45:54 AM [express] GET /api/reports/3 304 in 2ms :: {"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}
+5:45:57 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:46:00 AM [express] GET /api/reports/3 304 in 2ms :: {"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}
+5:46:02 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:46:05 AM [express] GET /api/reports/3 304 in 2ms :: {"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}
+5:46:07 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:46:10 AM [express] GET /api/reports/3 304 in 1ms :: {"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}
+5:46:13 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:46:16 AM [express] GET /api/reports/3 304 in 1ms :: {"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}
+5:46:18 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:46:21 AM [express] GET /api/reports/3 304 in 1ms :: {"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}
+5:46:23 AM [express] GET /api/reports 304 in 3ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:46:26 AM [express] GET /api/reports/3 304 in 2ms :: {"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}
+5:46:28 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:46:31 AM [express] GET /api/reports 200 in 3ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:46:32 AM [express] GET /api/reports/3 304 in 2ms :: {"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}
+5:46:36 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:46:37 AM [express] GET /api/reports/3 304 in 2ms :: {"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}
+5:46:42 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:46:47 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:46:54 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:46:58 AM [express] POST /api/reports 201 in 33ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:46:58 AM [express] GET /api/reports/4 200 in 1ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:46:59 AM [express] GET /api/reports 200 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:47:02 AM [express] GET /api/reports 200 in 1ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:47:04 AM [express] GET /api/reports/4 304 in 1ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:47:09 AM [express] GET /api/reports/4 304 in 3ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:47:09 AM [express] GET /api/reports 304 in 24ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:47:14 AM [express] GET /api/reports/4 304 in 2ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:47:14 AM [express] GET /api/reports 304 in 4ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:47:15 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:47:15 AM [express] GET /api/reports 304 in 1ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:47:15 AM [express] GET /api/reports 304 in 4ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:47:16 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:47:16 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:47:16 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:47:17 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:47:19 AM [express] GET /api/reports/4 304 in 2ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:47:23 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:47:25 AM [express] GET /api/reports/4 304 in 2ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:47:28 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:47:30 AM [express] GET /api/reports/4 304 in 2ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:47:31 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:47:35 AM [express] GET /api/reports/4 304 in 2ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:47:37 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:47:40 AM [express] GET /api/reports/4 304 in 2ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:47:42 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:47:43 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:47:46 AM [express] GET /api/reports/4 304 in 3ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:47:49 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:47:51 AM [express] GET /api/reports/4 304 in 3ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:47:54 AM [express] GET /api/reports 304 in 1ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:47:56 AM [express] GET /api/reports/4 304 in 2ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:47:59 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:48:01 AM [express] GET /api/reports/4 304 in 2ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m5:48:02 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css[22m
+5:48:04 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:48:07 AM [express] GET /api/reports/4 304 in 1ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:48:12 AM [express] GET /api/reports/4 304 in 2ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:48:13 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:48:17 AM [express] GET /api/reports 200 in 1ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:48:17 AM [express] GET /api/reports/4 304 in 2ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:48:19 AM [express] GET /api/reports 304 in 1ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:48:21 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:48:22 AM [express] GET /api/reports/4 304 in 2ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:48:26 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:48:28 AM [express] GET /api/reports/4 304 in 2ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:48:31 AM [express] GET /api/reports 304 in 3ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:48:33 AM [express] GET /api/reports/4 304 in 3ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:48:37 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:48:39 AM [express] GET /api/reports/4 304 in 2ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:48:42 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:48:44 AM [express] GET /api/reports/4 304 in 2ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:48:47 AM [express] GET /api/reports 304 in 3ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:48:49 AM [express] GET /api/reports/4 304 in 2ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:48:55 AM [express] GET /api/reports/4 304 in 2ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:48:55 AM [express] GET /api/reports 304 in 1ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:49:00 AM [express] GET /api/reports/4 304 in 1ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:49:01 AM [express] GET /api/reports 304 in 1ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:49:06 AM [express] GET /api/reports 304 in 7ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:49:08 AM [express] GET /api/reports/4 304 in 3ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:49:12 AM [express] GET /api/reports 304 in 1ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:49:14 AM [express] GET /api/reports/4 304 in 2ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:49:18 AM [express] GET /api/reports 304 in 3ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:49:19 AM [express] GET /api/reports/4 304 in 1ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:49:23 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:49:24 AM [express] GET /api/reports/4 304 in 1ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:49:28 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:49:29 AM [express] GET /api/reports/4 304 in 2ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:49:33 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:49:35 AM [express] GET /api/reports/4 304 in 2ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:49:39 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:49:42 AM [express] GET /api/reports/4 304 in 2ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:49:44 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:49:47 AM [express] GET /api/reports/4 304 in 1ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}
+5:49:49 AM [express] GET /api/reports 304 in 3ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:49:54 AM [express] GET /api/reports 304 in 3ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:50:00 AM [express] GET /api/reports 304 in 1ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:50:02 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:50:07 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:50:13 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:50:20 AM [express] GET /api/reports 304 in 4ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:50:25 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:50:30 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:50:35 AM [express] GET /api/reports 304 in 1ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:50:41 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:51:02 AM [express] POST /api/auth/login 200 in 0ms :: {"id":1,"username":"KUMBHMELA","role":"volunteer","password":""}
+5:51:07 AM [express] GET /api/reports 304 in 27ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m5:51:09 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css[22m [33m(x2)[39m
+5:51:14 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:51:47 AM [express] GET /api/reports 304 in 13ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:51:55 AM [express] GET /api/reports 304 in 1ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:52:00 AM [express] GET /api/reports 304 in 1ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:52:07 AM [express] GET /api/reports 304 in 8ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:52:13 AM [express] GET /api/reports 304 in 3ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:52:18 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:52:24 AM [express] GET /api/reports 304 in 3ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"},{"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:46:58.343Z"}]
+5:52:28 AM [express] PATCH /api/reports/4 200 in 12ms :: {"id":4,"type":"medical","name":"rushi","mobile":"89765783948","age":null,"gender":null,"description":"13ee","photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"resolved","createdAt":"2026-07-21T05:46:58.343Z","lastSeenAt":"2026-07-21T05:52:28.115Z"}
+5:52:28 AM [express] GET /api/reports 200 in 1ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:52:34 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:52:39 AM [express] GET /api/reports 304 in 3ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:52:44 AM [express] GET /api/reports 304 in 5ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:52:50 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:52:55 AM [express] GET /api/reports 304 in 1ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:53:00 AM [express] GET /api/reports 304 in 1ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:53:05 AM [express] GET /api/reports 304 in 5ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:53:11 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:53:16 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:53:21 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:53:26 AM [express] GET /api/reports 304 in 4ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:53:32 AM [express] GET /api/reports 304 in 1ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:53:37 AM [express] GET /api/reports 304 in 3ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:53:42 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:53:47 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:53:53 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:53:58 AM [express] GET /api/reports 304 in 1ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:54:03 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:54:08 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:54:14 AM [express] GET /api/reports 304 in 4ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:54:19 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:54:24 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:54:29 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:54:35 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:54:47 AM [express] GET /api/reports 200 in 19ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:54:50 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:54:55 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:55:00 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:55:06 AM [express] GET /api/reports 304 in 3ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:55:11 AM [express] GET /api/reports 304 in 1ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:55:21 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:55:22 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m5:55:24 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ReportFlow.tsx, /src/index.css[22m
+5:55:26 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:55:32 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:55:37 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:55:43 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:55:48 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:55:53 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:56:04 AM [express] GET /api/reports 304 in 12ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:56:14 AM [express] GET /api/reports 304 in 3ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:56:24 AM [express] GET /api/reports 304 in 10ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m5:56:26 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css[22m
+5:56:29 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:56:36 AM [express] GET /api/reports 200 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:56:37 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:56:42 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:56:47 AM [express] GET /api/reports 304 in 4ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:56:53 AM [express] GET /api/reports 304 in 3ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:57:03 AM [express] GET /api/reports 304 in 16ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:57:08 AM [express] GET /api/reports 304 in 1ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:57:14 AM [express] GET /api/reports 304 in 8ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:57:19 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:57:24 AM [express] GET /api/reports 304 in 2ms :: [{"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:45:37.785Z"}]
+5:57:27 AM [express] PATCH /api/reports/3 200 in 40ms :: {"id":3,"type":"lost_other","name":"wef","mobile":"987655444","age":42,"gender":null,"description":null,"photoUrl":"blob:https://485ef8cb-a4ba-48f9-9fd3-a3fcfdcffc48-00-2y8pidhygyct7.spock.replit.dev/3aa736e0-ac6e-40bc-b5ad-bc9552881f7a","lat":19.901491,"lng":74.49481,"status":"resolved","createdAt":"2026-07-21T05:45:37.785Z","lastSeenAt":"2026-07-21T05:57:27.155Z"}
+5:57:27 AM [express] GET /api/reports 200 in 2ms :: []
+5:57:32 AM [express] GET /api/reports 304 in 2ms :: []
+5:57:42 AM [express] GET /api/reports 200 in 2ms :: []
+5:57:42 AM [express] GET /api/reports 304 in 1ms :: []
+5:57:48 AM [express] GET /api/reports 304 in 2ms :: []
+5:57:53 AM [express] GET /api/reports 304 in 1ms :: []
+5:57:59 AM [express] GET /api/reports 304 in 2ms :: []
+5:58:04 AM [express] GET /api/reports 304 in 1ms :: []
+5:58:10 AM [express] GET /api/reports 304 in 2ms :: []
+5:58:15 AM [express] GET /api/reports 304 in 2ms :: []
+5:58:16 AM [express] GET /api/reports 304 in 2ms :: []
+5:58:23 AM [express] POST /api/auth/logout 200 in 1ms :: {"message":"Logged out"}
+5:58:34 AM [express] POST /api/upload 200 in 5ms
+5:58:36 AM [express] POST /api/upload 200 in 4ms
+5:58:40 AM [express] POST /api/upload 200 in 4ms
+5:58:41 AM [express] POST /api/upload 200 in 3ms
+5:58:43 AM [express] POST /api/upload 200 in 8ms
+5:58:45 AM [express] POST /api/upload 200 in 4ms
+5:58:47 AM [express] POST /api/upload 200 in 5ms
+5:58:53 AM [express] POST /api/reports 201 in 55ms :: {"id":5,"type":"lost_other","name":"qearsdfg","mobile":"scxvbcg jm","age":5,"gender":null,"description":null,"photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:58:53.332Z","lastSeenAt":"2026-07-21T05:58:53.332Z"}
+5:58:54 AM [express] GET /api/reports/5 200 in 2ms :: {"id":5,"type":"lost_other","name":"qearsdfg","mobile":"scxvbcg jm","age":5,"gender":null,"description":null,"photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:58:53.332Z","lastSeenAt":"2026-07-21T05:58:53.332Z"}
+5:59:01 AM [express] GET /api/reports 200 in 2ms :: [{"id":5,"type":"lost_other","name":"qearsdfg","mobile":"scxvbcg jm","age":5,"gender":null,"description":null,"photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:58:53.332Z","lastSeenAt":"2026-07-21T05:58:53.332Z"}]
+5:59:08 AM [express] GET /api/reports 200 in 1ms :: [{"id":5,"type":"lost_other","name":"qearsdfg","mobile":"scxvbcg jm","age":5,"gender":null,"description":null,"photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:58:53.332Z","lastSeenAt":"2026-07-21T05:58:53.332Z"}]
+5:59:19 AM [express] GET /api/reports 304 in 2ms :: [{"id":5,"type":"lost_other","name":"qearsdfg","mobile":"scxvbcg jm","age":5,"gender":null,"description":null,"photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:58:53.332Z","lastSeenAt":"2026-07-21T05:58:53.332Z"}]
+5:59:20 AM [express] POST /api/auth/logout 200 in 0ms :: {"message":"Logged out"}
+5:59:28 AM [express] POST /api/upload 200 in 4ms
+5:59:29 AM [express] POST /api/upload 200 in 3ms
+5:59:35 AM [express] POST /api/upload 200 in 3ms
+5:59:36 AM [express] POST /api/upload 200 in 4ms
+5:59:38 AM [express] POST /api/upload 200 in 4ms
+5:59:42 AM [express] POST /api/upload 200 in 4ms
+5:59:45 AM [express] POST /api/upload 200 in 3ms
+6:00:28 AM [express] GET /api/reports 200 in 10ms :: [{"id":5,"type":"lost_other","name":"qearsdfg","mobile":"scxvbcg jm","age":5,"gender":null,"description":null,"photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:58:53.332Z","lastSeenAt":"2026-07-21T05:58:53.332Z"}]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m6:03:46 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ReportFlow.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m6:04:27 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ReportFlow.tsx, /src/pages/Dashboard.tsx, /src/pages/Tracking.tsx, /src/pages/Login.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m6:04:35 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ReportFlow.tsx, /src/index.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m6:04:48 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ReportFlow.tsx, /src/index.css[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m6:05:02 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ReportFlow.tsx, /src/index.css[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m6:05:22 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ReportFlow.tsx, /src/index.css[22m [33m(x4)[39m

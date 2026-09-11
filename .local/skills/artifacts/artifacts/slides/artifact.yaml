@@ -1,0 +1,36 @@
+name: slides
+description: "presentation slide deck scaffold"
+kind: slides
+
+access:
+  type: stack
+  name: PNPM_WORKSPACE
+
+service_configs:
+  - name: web
+    development:
+      run: pnpm --filter @workspace/__SLUG__ run dev
+    production:
+      serve: static
+      build:
+        - pnpm
+        - --filter
+        - '@workspace/__SLUG__'
+        - run
+        - build
+      publicDir: artifacts/__SLUG__/dist/public
+      rewrites:
+        - from: "/*"
+          to: /index.html
+
+initial_open_files:
+  - index.html
+  - src/data/slides-manifest.json
+  - src/index.css
+
+additional_skills:
+  - references/building.md
+  - references/design-principles.md
+  - references/sdm-layout.md
+  - references/sdm-design.md
+  - media-generation

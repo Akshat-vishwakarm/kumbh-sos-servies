@@ -1,0 +1,12 @@
+
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+[1G[0K[2m6:05:26 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m Re-optimizing dependencies because lockfile has changed
+6:05:26 AM [express] serving on port 5000
+Browserslist: browsers data (caniuse-lite) is 9 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+6:06:30 AM [express] GET /api/reports 304 in 10ms :: [{"id":5,"type":"lost_other","name":"qearsdfg","mobile":"scxvbcg jm","age":5,"gender":null,"description":null,"photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:58:53.332Z","lastSeenAt":"2026-07-21T05:58:53.332Z"}]
+6:06:33 AM [express] GET /api/reports 304 in 3ms :: [{"id":5,"type":"lost_other","name":"qearsdfg","mobile":"scxvbcg jm","age":5,"gender":null,"description":null,"photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:58:53.332Z","lastSeenAt":"2026-07-21T05:58:53.332Z"}]
+6:06:56 AM [express] GET /api/reports 304 in 11ms :: [{"id":5,"type":"lost_other","name":"qearsdfg","mobile":"scxvbcg jm","age":5,"gender":null,"description":null,"photoUrl":null,"lat":19.901491,"lng":74.49481,"status":"active","createdAt":"2026-07-21T05:58:53.332Z","lastSeenAt":"2026-07-21T05:58:53.332Z"}]

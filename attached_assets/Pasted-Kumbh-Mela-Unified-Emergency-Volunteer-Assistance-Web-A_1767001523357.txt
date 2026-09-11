@@ -1,0 +1,216 @@
+Kumbh Mela Unified Emergency & Volunteer Assistance Web App (QR-Based)
+
+🎯 OBJECTIVE
+
+Create a single unified website (same domain, same QR code) used by pilgrims (users) and volunteers during Kumbh Mela to report emergencies and view live locations in real time on a single map dashboard.
+
+🧭 START PAGE (MAIN PAGE /)
+
+This page opens when the universal QR code is scanned.
+
+Show 4 BIG ACTION BUTTONS
+
+🟥 Medical Emergency
+
+🟣 I Lost Myself(ATTACH P) 
+
+🟡 Lost Someone
+
+🟢 Volunteer Help
+
+Below these buttons:
+
+🔐 Volunteer Login (Username + Password)
+
+🌐 Language Selector:
+English | Hindi | Marathi | Tamil | Telugu
+
+🧑‍🦯 USER FLOW (NO LOGIN REQUIRED)
+On Clicking Any Option:
+
+Ask for location permission (mandatory).
+
+Ask for basic details:
+
+Name (optional)
+
+Mobile number (optional)
+
+Start live location tracking (every 10–15 seconds).
+
+Tracking automatically expires after 1 hour.
+
+User must scan QR again to restart tracking.
+
+🟡 LOST SOMEONE (SPECIAL CASE)
+
+Additional fields:
+
+Upload photo of missing person (camera or gallery).
+
+Optional:
+
+Age
+
+Gender
+
+Last seen note
+
+Photo must:
+
+Be visible to volunteers on marker click
+
+Not be downloadable
+
+Auto-delete after 1 hour
+
+🎨 MAP MARKER COLOR RULES
+
+On the volunteer dashboard map:
+
+Case Type	Marker Color
+Medical Emergency	🔴 Red(ATTACH PHOTO )MEDICAL HELP LINE NUMBER  
+Lost Someone	🟡 Yellow(ATTACH PHOTO) MEDICAL HELP LINE NUMBER
+I Lost Myself	🟣 Purple(ATTACH PHOTO) MEDICAL HELP LINE NUMBER
+Volunteer Help	🟢 Green(ATTACH PHOTO) MEDICAL HELP LINE NUMBER
+
+Each marker popup shows:
+
+Case type
+
+Name
+
+Time remaining
+
+Uploaded photo (if any)
+
+Last location update
+
+🧑‍🚒 VOLUNTEER LOGIN SYSTEM
+
+On the same start page:
+
+Login Credentials (demo):
+
+Username: KUMBH
+
+Password: CHOCOLATE
+
+Features:
+
+Session-based login
+
+Auto logout after inactivity
+
+Only volunteers can access dashboard
+
+🗺️ VOLUNTEER DASHBOARD (/dashboard)
+
+One single live map
+
+Shows multiple users at once
+
+Real-time updates (Socket.IO)
+
+Auto-remove expired cases
+
+Filter by:
+
+Case type
+
+Active / expired
+
+Count badges for each emergency type
+
+🔐 PRIVACY & SAFETY RULES (MANDATORY)
+
+Explicit user consent before location access
+
+No background tracking
+
+Auto-delete:
+
+Location data after 1 hour
+
+Photos after 1 hour
+
+No permanent storage
+
+HTTPS-ready structure
+
+🌍 MULTI-LANGUAGE SUPPORT
+
+Use i18n JSON-based translations.
+Entire UI must dynamically change language.
+
+🛠️ TECH STACK
+
+Frontend
+
+HTML, CSS, JavaScript
+
+Leaflet.js (OpenStreetMap)
+
+Mobile-first responsive design
+
+Backend
+
+Node.js + Express
+
+Socket.IO (real-time updates)
+
+In-memory store / Redis with TTL = 1 hour
+
+Multer for photo upload
+
+Auth
+
+Express-session
+
+📁 REQUIRED ROUTES
+
+/ → Start page (4 options + volunteer login)
+
+/report/:type → User form + tracking
+
+/dashboard → Volunteer map
+
+/expired → Tracking expired message
+
+📦 DELIVERABLES
+
+Working Replit project
+
+Clean folder structure
+
+README with:
+
+QR setup
+
+Volunteer usage
+
+Data expiry logic
+
+Safety disclaimer
+
+⚠️ IMPORTANT
+
+This platform is:
+
+Volunteer-assisted VOLUNTEER CAN DOWNLOAD LOST REPORT AWITH NAME NUMBER PHOTO AND TIME  
+
+Consent-based
+
+Temporary event-use only
+
+NOT a surveillance system
+
+🚀 OPTIONAL ENHANCEMENTS
+
+Auto-zoom to fit all markers
+
+Emergency sound alert for medical cases
+
+Offline warning
+
+PWA suppor

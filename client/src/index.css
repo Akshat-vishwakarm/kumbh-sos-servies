@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;700&display=swap');
+@import "leaflet/dist/leaflet.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: 'Outfit', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+
+  /* Emergency Theme Palette */
+  --background: 220 20% 97%;
+  --foreground: 222 47% 11%;
+  
+  /* Primary Red (Medical/Emergency) */
+  --primary: 350 89% 60%;
+  --primary-foreground: 0 0% 100%;
+  
+  /* Warning Yellow (Lost) */
+  --warning: 45 93% 47%;
+  --warning-foreground: 0 0% 0%;
+
+  /* Purple (Lost Self) */
+  --purple: 270 60% 55%;
+  --purple-foreground: 0 0% 100%;
+  
+  /* Success Green (Volunteer) */
+  --success: 142 71% 45%;
+  --success-foreground: 0 0% 100%;
+
+  --muted: 210 40% 96%;
+  --muted-foreground: 215 16% 47%;
+  
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+  
+  --border: 214 32% 91%;
+  --input: 214 32% 91%;
+  --ring: 350 89% 60%;
+  
+  --radius: 1rem;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-primary/20;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    @apply font-bold tracking-tight;
+  }
+}
+
+/* Custom Map Marker Styles */
+.custom-marker {
+  transition: transform 0.2s;
+}
+.custom-marker:hover {
+  transform: scale(1.1);
+  z-index: 1000 !important;
+}
+
+/* Pulsing animation for active tracking */
+@keyframes pulse-ring {
+  0% { transform: scale(0.33); opacity: 0; }
+  80%, 100% { opacity: 0; }
+}
+@keyframes pulse-dot {
+  0% { transform: scale(0.8); }
+  50% { transform: scale(1); }
+  100% { transform: scale(0.8); }
+}
+
+.animate-pulse-ring {
+  animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+}
+.animate-pulse-dot {
+  animation: pulse-dot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite;
+}
